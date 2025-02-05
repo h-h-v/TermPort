@@ -1,5 +1,6 @@
 # Portfolio
-![Uploading Screenshot 2025-02-05 at 11.42.22 PM.png…]()
+
+<img width="1303" alt="Screenshot 2025-02-05 at 11 42 22 PM" src="https://github.com/user-attachments/assets/bdfe7004-2f96-403b-8dbc-3bdf8363f8e0" />
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
