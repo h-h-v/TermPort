@@ -1,22 +1,46 @@
-<div class="app-container">
-    <header>
-    <h1>github<span style="color: grey;">&#x40;</span>h-h-v</h1>
-<h1 style="color: orange;">
-&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_&nbsp;&nbsp;&nbsp;_<br>
-| | | | | | | | | |&nbsp;| |<br>
-| |_| | | |_| | | |&nbsp;| |<br>
-|  &nbsp;_&nbsp;&nbsp;|<span style="color: grey;">~</span>|  &nbsp;_&nbsp;&nbsp;|<span style="color: grey;">~</span>| |&nbsp;| |<br>
-| | | | | | | | \ |_|&nbsp;/<br>
-\_| |_/ \_| |_/ &nbsp;\___/<br>                                         
-</h1>                                                 
-        <h1>welcome:$ ~</h1>
-        <h2 style="font-weight: bold;">Undergrad Software developer looking for interns</h2>
-        <h1>Projects</h1> 
-        <a href="https://h-h-v.vercel.app/">Portfolio Website&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="https://github.com/h-h-v/java-project">Library Management System&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="https://github.com/h-h-v/DB">DB</a>
-    </header>
-    <main>
-        <router-outlet></router-outlet>
-    </main>
+<div class="min-h-screen bg-gray-900 text-gray-100 font-mono">
+  <!-- Header -->
+  <header class="text-center py-12">
+    <!-- GitHub handle -->
+    <h1 class="text-2xl md:text-3xl font-bold">
+      github<span class="text-gray-500">@</span>h-h-v
+    </h1>
+
+    <!-- ASCII Art -->
+    <pre class="text-orange-400 text-sm md:text-lg leading-tight mt-4 whitespace-pre">
+  _   _   _   _   _   _
+ | | | | | | | | | | | |
+ | |_| | | |_| | | | | |
+ |  _  |~|  _  |~| | | |
+ | | | | | | | | \ |_| /
+ |_| |_| |_| |_|  \___/
+    </pre>
+
+    <!-- Welcome -->
+    <h1 class="text-2xl md:text-3xl font-semibold mt-6">welcome:$ ~</h1>
+    <h2 class="text-lg md:text-xl font-bold text-green-400 mt-2">
+      Undergrad Software Developer looking for internships
+    </h2>
+
+    <!-- Projects -->
+    <h1 class="text-2xl md:text-3xl font-semibold mt-10">Projects</h1>
+    <nav class="flex flex-wrap justify-center gap-6 mt-4">
+      <a href="https://h-h-v.vercel.app/" target="_blank"
+         class="text-indigo-400 hover:text-indigo-300 transition">Portfolio Website</a>
+      <a href="https://github.com/h-h-v/java-project" target="_blank"
+         class="text-indigo-400 hover:text-indigo-300 transition">Library Management System</a>
+      <a href="https://github.com/h-h-v/DB" target="_blank"
+         class="text-indigo-400 hover:text-indigo-300 transition">DB</a>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="px-6 md:px-16 py-12">
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 border-t border-gray-700">
+    © 2025 TermPort | Built with ❤️ in Angular
+  </footer>
 </div>
